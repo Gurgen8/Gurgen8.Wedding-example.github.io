@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+}
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  background-position: center;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main {
+  width: 100%;
+}
+
+.main .container .op {
+  width: 30%;
+  border: 1px solid black;
+}
+
+.main .container .op h2 {
+  color: hotpink;
+}
+
+.container {
+  width: 90%;
+  padding-top: 30px;
+  margin: 0 auto;
+  display: -ms-grid !important;
+  display: grid !important;
+  -ms-grid-columns: 1fr 1fr !important;
+      grid-template-columns: 1fr 1fr !important;
+}
+
+.container .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.container .btn button {
+  margin-right: 5px;
+}
+
+.bacik {
+  display: none;
+  position: absolute;
+  background-color: ivory;
+  left: 37.5%;
+  width: 25%;
+  border: 2px solid transparent;
+  -webkit-box-shadow: 10px 10px #FBAED2;
+          box-shadow: 10px 10px #FBAED2;
+  border-radius: 30px 10px 30px 10px;
+  padding: 3% 3%;
+  font-size: 16px;
+  margin-top: 400px;
+}
+
+.shadow {
+  -webkit-box-shadow: 10px 20px 10px #ccc;
+          box-shadow: 10px 20px 10px #ccc;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  -webkit-transform: scale(1.2, 1.3);
+          transform: scale(1.2, 1.3);
+  background-color: black;
+  color: gold;
+  border: 6px double gold;
+  opacity: 0.9;
+}
+/*# sourceMappingURL=style.css.map */
